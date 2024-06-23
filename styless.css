@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #007bff;
+    font-size: 30px;
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #2f3030;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+    width: 150px;
+    flex: 1;
+    text-align: right;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="date"],
+  .form-group input[type="tel"],
+  .form-group select {
+    flex: 2;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="text"]:hover,
+  .form-group input[type="email"]:hover,
+  .form-group input[type="password"]:hover,
+  .form-group input[type="date"]:hover,
+  .form-group input[type="tel"]:hover,
+  .form-group select:hover {
+    border-color: #007bff;
+  }
+
+
+
+
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group label {
+    margin-left: 2px;
+    font-weight: 400;
+    color: #666;
+  }
+  
+  input[type="checkbox"] {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff;
+  }
+  
+  .btn,
+  .btn-small {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .btn-small {
+    display: inline-block;
+    width: auto;
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .btn:hover,
+  .btn-small:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

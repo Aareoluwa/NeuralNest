@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <h4>Create an account to get started with YouTherapist and begin managing your practice. Choose below if you are a therapist.</h4>
+        <form action="#" method="post">
+          <div class="form-group">
+            <div class="flex">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="flex">
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="flex">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="flex">
+              <label for="confirm-email">Confirm Email:</label>
+              <input type="email" id="confirm-email" name="confirm-email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="flex">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div class="flex">
+              <label for="confirm-password">Confirm Password:</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="flex">
+              <label for="dob">Date of Birth:</label>
+              <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="flex">
+              <label for="received-code">Received Code:</label>
+              <input type="text" id="received-code" name="received-code" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <div class="inline-group">
+              <select id="country-code" name="country-code" required>
+                <option value="+234">+234 (NIG)</option>
+                <option value="+1">+1 (US)</option>
+                <option value="+44">+44 (UK)</option>
+
+              </select>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="privacy" name="privacy" required>
+            <label for="privacy">I agree to the <a href="#">Privacy Policy</a></label>
+          </div>
+          <button type="submit" class="btn">Register</button>
+        </form>
+        <p>Already have an account? <a href="#">Login</a></p>
+      </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.sec2 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 450px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+  }
+  
+  option{
+      cursor: pointer;
+  }
+  
+  .sec2:hover{
+    border: 1px solid #000000;
+    transition: ease 1s;
+  }
+  
+  
+  

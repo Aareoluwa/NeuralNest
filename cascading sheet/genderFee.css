@@ -1,0 +1,47 @@
+#Gender{
+    display: inline-block;
+    gap: 4px;
+}  
+#price{
+    display: inline-block;
+    gap: 4px;
+}  
+
+.buttons5{
+padding: 12px;
+color: #000000;
+background-color: #dcdcdc;
+border: 1px solid #dcdcdc;
+transition: ease 1s;
+
+border-radius: 4px;
+}
+.buttons5:hover{
+background-color: #fff;
+color: #6f0a6f;
+border: 1px solid #dcdcdc;
+}
+.buttons5:focus{
+background-color: #6f0a6f;
+color: #fff;
+}
+
+
+
+.buttons6{
+padding: 12px;
+color: #000000;
+background-color: #dcdcdc;
+border: 1px solid #dcdcdc;
+border-radius: 4px;
+transition: ease 1s;
+}
+.buttons6:hover{
+background-color: #fff;
+color: #6f0a6f;
+border: 1px solid #dcdcdc;
+}
+.buttons6:focus{
+background-color: #6f0a6f;
+color: #fff;
+}

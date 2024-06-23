@@ -1,0 +1,25 @@
+.sec {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: fit-content;
+  cursor: pointer;
+  margin-bottom: 20px;
+  
+}
+select {
+  border: 0;
+  cursor: pointer;
+  width: 400px;
+  outline: none;
+}
+option{
+    cursor: pointer;
+}
+
+.sec:hover{
+  border: 1px solid #000000;
+  transition: ease 1s;
+}
+
+

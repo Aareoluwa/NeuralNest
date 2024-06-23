@@ -1,0 +1,56 @@
+.fa-sort-down{
+    margin-left: px;
+    font-size: 15px;
+    color: #6b0766; 
+}
+
+.round {
+    background:transparent; 
+    border-radius: 50%; 
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 310px;
+    transition: ease 1s;
+
+  }
+
+  .round:hover{
+    background:#dbd6db; 
+  }
+
+  .space{
+    margin-left: 410px;
+  }
+
+
+  .fa-location-arrow{
+    font-size: 15px;
+    color: #6b0766; 
+    transition: ease 1s;
+  }
+
+  .fa-location-arrow:hover{
+    color: #000000; 
+  }
+
+
+
+  .rounds {
+    background:transparent; 
+    border-radius: 50%; 
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 280px;
+    transition: ease 1s;
+
+  }
+
+
+
+

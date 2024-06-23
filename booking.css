@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.cons{
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 20px;
+    border-radius: 20px;
+}

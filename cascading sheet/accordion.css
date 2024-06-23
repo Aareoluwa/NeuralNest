@@ -1,0 +1,22 @@
+.accordion {
+    width: 455px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    background-color:transparent;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: block; 
+  }
+  
+  .accordion-content.active {
+    display: none; 
+  }

@@ -1,0 +1,242 @@
+
+
+ 
+
+    .downSearch {
+        padding: 20px;
+        width: 700px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .downSearch .seaerch1 {
+        padding: 20px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: inline-block; 
+        text-align: center;
+    }
+    
+    .downSearch select {
+        border: 0;
+        cursor: pointer;
+        width: 400px;
+        outline: none;
+    }
+    
+    .downSearch option {
+        cursor: pointer;
+    }
+    
+    .downSearch .seaerch1:hover {
+        border: 1px solid #000000;
+        transition: ease 1s;
+    }
+    
+    .downSearch span {
+        background: #4070fa;
+        padding: 30px;
+        font-size: 12px;
+        color: #fff;
+        text-align: center; 
+        margin-left: -10px;
+    }
+    
+    .downSearch span:hover {
+        background: #1c4ad4;
+    }
+    
+      
+       
+
+    
+  
+    
+
+
+   
+    
+    .down-bar article:last-of-type a:after {
+        content: none; 
+    }
+    
+    
+    .down-bar {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: #402E7A;
+    text-align: center;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: relative;  
+    padding: 20px 0px; 
+    color: #fff;
+    }
+    
+    .down-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .down-bar article{
+    display: inline;
+    }
+    .down-bar a:hover {
+    text-decoration: underline;
+    }
+    
+    .down-bar a:after {
+    content: "|";
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    
+    .down-bar h4:nth-of-type(5) a:after {
+    content: none;
+    }
+
+    .down-bar p a:after {
+    content: none;
+    }
+    .down-bar p {
+    padding: 1px;
+    }
+
+
+    .therapist-photo {
+        height: 80px;
+        width: 80px; 
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 4px solid #4070fa; 
+    }
+    
+      
+      
+      
+
+
+
+    #therapy-hint {
+        display: flex;
+        background-color: #e3dfdb;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    
+    #therapy-hint > p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .recent-views {
+        background-color: #4C3BCF;
+        padding: 20px;
+    }
+    
+    .therapist-card {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color:#bfd8df;
+        cursor: pointer;
+        height: 100px;
+        width: 320px;
+        border: none;
+        outline: none;
+    }
+    
+    .therapist-card:hover {
+        background-color: #acacb1;
+    }
+
+    .inline-container {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+        margin-top: -80px;
+        margin-left: 100px;
+    }
+    
+    .therapist-name {
+        font-size: 16px; 
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    
+    .session-price {
+        font-size: 13px;
+        font-weight: bold; 
+        margin-left: 10px; 
+        cursor: pointer;
+        padding: 3px;
+        background: #0080ff;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .session-date {
+        margin-top: 20px; 
+    }
+    
+    .session-availability {
+        color: #000000;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+    
+    .recent-views-title,
+    .clear-history {
+        color: #fff; 
+    }
+    
+    .clear-history a {
+        text-decoration: underline;
+        color: #fff;
+       margin-left: 80rem;
+    }
+    
+    .clear-history a:hover {
+        text-decoration: none;
+    }
+    
+
+    /*
+    padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+    */
+
+
+
+    input[type="date"]{
+        background-color: #0080ff;
+        padding: 15px;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 13px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-left: 170px;
+        margin-top: 20px;
+
+    }
+    ::-webkit-calendar-picker-indicator{
+        background-color: #ffffff;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+    }

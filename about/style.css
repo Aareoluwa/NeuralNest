@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 15px;
+    height: 10%;
+}
+
+header {
+    background: url('jon-eckert-IoIbdFdGCnQ-unsplash.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 1rem 0;
+    height: 710px;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+header nav ul li .account-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li .account-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+.hero > p {
+    padding: 5px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+.about-therapists > p{
+    padding: 5px;
+    line-height: 1.7;
+    font-size: 14px; 
+    font-weight: 100;
+    color: #443d3d;
+}
+.about-therapists > h2{
+    color: #443d3d;
+    font-size: 30px;
+}
+.hero{
+    padding: 10px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #d2d2d2;
+    padding: 30px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.subscribe .content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+}
+.subscribes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: transparent;
+    padding: 30px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.subscribes .contents{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+}
+
+.subscribe .content button{
+    padding: 10px;
+    background-color: #4070fa;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.subscribe .content button:hover{
+    background-color: #1c4ad4;
+}
+
+
+.subscribe .content input[type=email] {
+    width: 400px;
+    padding: 12px; 
+    margin: 8px 0;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-therapists, .goals-values, .client-guarantee, .team, .ready {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-therapists .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.about-therapists .subscribe input, .about-therapists .subscribe button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.goals-values .goal {
+    display: inline-block;
+    width: 25%;
+    margin: 1rem;
+    background-color: #ffffff;
+    color: #000000; 
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #0000001a; 
+    text-align: center;
+}
+
+
+
+.team .member {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+}
+
+
+
+footer .footer-top {
+    padding-bottom: 1rem;
+}
+
+
+.team .member > img{
+    height: 150px;
+    width: 150px; 
+object-fit: cover;
+border-radius: 50%; 
+border: 4px solid #4070fa; 
+}
+
+.team .member{
+        display: inline-block;
+        width: 25%;
+        margin: 1rem;
+        background-color: #ffffff;
+        color: #000000; 
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px #0000001a; 
+        text-align: center;
+    }
+.client-guarantee{
+    margin-top: 30px;
+    margin-bottom: 30px;
+padding-top: 100px;
+padding-bottom: 100px;
+    background: #4B70F5;
+    background-image: url("./transp.png");
+    background-size: cover;
+    color: #ffffff;
+}
+
+.client-guarantee > h2{
+    font-size: 35px;
+}
+
+
+
+.team .member > h3{
+color: #443d3d;
+padding: 10px;
+font-size: 16px;
+}
+
+.team .member > p{
+    color: #443d3d;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+
+    .footer-top{
+        background-color: #88a0e7;
+        padding: 25px;
+        color: #000000; 
+        /* box-shadow: 0 4px 10px #0000001a;  */
+        text-align: center;
+    }
+    .footer-top button{
+        background-color: transparent;
+        padding: 7px 20px 7px 20px;
+        margin: 0rem 1rem 0rem 1rem;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+
+
+    .footer-top button:hover{
+        background-color: #fff;
+        padding: 7px 20px 7px 20px;
+        margin: 0rem 1rem 0rem 1rem;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        color: #4070fa;
+    }
+
+
+
+    .footer-top span{
+        color: #fff;
+    }
+
+ 
+
+    .downSearch {
+        padding: 20px;
+        width: 700px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .downSearch .seaerch1 {
+        padding: 20px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: inline-block; 
+        text-align: center;
+    }
+    
+    .downSearch select {
+        border: 0;
+        cursor: pointer;
+        width: 400px;
+        outline: none;
+    }
+    
+    .downSearch option {
+        cursor: pointer;
+    }
+    
+    .downSearch .seaerch1:hover {
+        border: 1px solid #000000;
+        transition: ease 1s;
+    }
+    
+    .downSearch span {
+        background: #4070fa;
+        padding: 30px;
+        font-size: 12px;
+        color: #fff;
+        text-align: center; 
+        margin-left: -10px;
+    }
+    
+    .downSearch span:hover {
+        background: #1c4ad4;
+    }
+    
+      
+       
+
+    
+  
+    
+
+
+   
+    
+    .down-bar article:last-of-type a:after {
+        content: none; 
+    }
+    
+    
+    .down-bar {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: #402E7A;
+    text-align: center;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: relative;  
+    padding: 20px 0px; 
+    color: #fff;
+    }
+    
+    .down-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .down-bar article{
+    display: inline;
+    }
+    .down-bar a:hover {
+    text-decoration: underline;
+    }
+    
+    .down-bar a:after {
+    content: "|";
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    
+    .down-bar h4:nth-of-type(5) a:after {
+    content: none;
+    }
+
+    .down-bar p a:after {
+    content: none;
+    }
+    .down-bar p {
+    padding: 1px;
+    }
+
+
+    .therapist-photo {
+        height: 80px;
+        width: 80px; 
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 4px solid #4070fa; 
+    }
+    
+      
+      
+      
+
+
+
+    #therapy-hint {
+        display: flex;
+        background-color: #e3dfdb;
+        padding: 20px;
+    }
+    
+    #therapy-hint > p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .recent-views {
+        background-color: #4C3BCF;
+        padding: 20px;
+    }
+    
+    .therapist-card {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color:#bfd8df;
+        cursor: pointer;
+        height: 100px;
+        width: 320px;
+        border: none;
+        outline: none;
+    }
+    
+    .therapist-card:hover {
+        background-color: #acacb1;
+    }
+
+    .inline-container {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+        margin-top: -80px;
+        margin-left: 100px;
+    }
+    
+    .therapist-name {
+        font-size: 16px; 
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    
+    .session-price {
+        font-size: 13px;
+        font-weight: bold; 
+        margin-left: 10px; 
+        cursor: pointer;
+        padding: 3px;
+        background: #0080ff;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .session-date {
+        margin-top: 20px; 
+    }
+    
+    .session-availability {
+        color: #000000;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+    
+    .recent-views-title,
+    .clear-history {
+        color: #fff; 
+    }
+    
+    .clear-history a {
+        text-decoration: underline;
+        color: #fff;
+       margin-left: 80rem;
+    }
+    
+    .clear-history a:hover {
+        text-decoration: none;
+    }
+    
+
+    /*
+    padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+    */
+
+
+
+    input[type="date"]{
+        background-color: #0080ff;
+        padding: 15px;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 13px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-left: 170px;
+        margin-top: 20px;
+
+    }
+    ::-webkit-calendar-picker-indicator{
+        background-color: #ffffff;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
