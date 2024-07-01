@@ -13,7 +13,7 @@ header {
     background-color: #ffffff;
     padding: 20px 0; 
     box-shadow: 0 2px 4px #0000001a;
-    height: 45px; 
+    height: 70px; 
     position: fixed; 
     top: 0;
     width: 100%; 
@@ -25,6 +25,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header .logo {
@@ -36,7 +37,7 @@ header .logo {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 20px; /* Use flexbox gap for spacing */
+    gap: 20px; 
 }
 
 header nav ul li a {
@@ -59,7 +60,7 @@ header nav ul li .account-btn:hover {
 
 /* Main content styling */
 main {
-    margin-top: 110px; /* Adjust margin to account for the fixed header */
+    margin-top: 120px; 
 }
 
 /* Hero section */
@@ -67,6 +68,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 20px;
 }
 
 .hero-text {
@@ -79,12 +81,12 @@ main {
     border: none;
     border-radius: 20px;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .hero-text h1 {
-    font-size: 36px;
+    font-size: 55px;
     line-height: 1.2;
     margin-bottom: 20px;
 }

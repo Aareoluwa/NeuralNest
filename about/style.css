@@ -411,13 +411,13 @@ font-size: 16px;
     }
 
 
-    .therapist-photo {
+    /* .therapist-photo {
         height: 80px;
         width: 80px; 
     object-fit: cover;
     border-radius: 50%; 
     border: 4px solid #4070fa; 
-    }
+    } */
     
       
       
@@ -436,12 +436,12 @@ font-size: 16px;
         font-weight: normal;
     }
     
-    .recent-views {
+    /* .recent-views {
         background-color: #4C3BCF;
         padding: 20px;
-    }
+    } */
     
-    .therapist-card {
+    /* .therapist-card {
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -457,18 +457,18 @@ font-size: 16px;
     
     .therapist-card:hover {
         background-color: #acacb1;
-    }
+    } */
 
-    .inline-container {
+    /* .inline-container {
         display: flex;
         gap: 30px;
         align-items: center;
         width: 100%;
         margin-top: -80px;
         margin-left: 100px;
-    }
+    } */
     
-    .therapist-name {
+    /* .therapist-name {
         font-size: 16px; 
         font-weight: bold;
         cursor: pointer;
@@ -510,7 +510,7 @@ font-size: 16px;
     
     .clear-history a:hover {
         text-decoration: none;
-    }
+    } */
     
 
     /*

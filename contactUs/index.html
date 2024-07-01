@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="/contactUs/styles.css" />
+  </head>
+  <body>
+    <header></header>
+
+
+    <section class="contact-section">
+        <div class="contact-form-container">
+          <h2>DROP YOUR MESSAGE</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+
+            <p>Select an option for the answer:</p>
+            <div class="radio-group">
+              <label
+                ><input
+                  type="radio"
+                  name="response-option"
+                  value="paid-answer"
+                  required
+                />
+                Paid answer</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="response-option"
+                  value="online-consultations"
+                />
+                Online paid consultations</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="response-option"
+                  value="free-answer"
+                />
+                Free answer</label
+              >
+            </div>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+
+        </section>
+
+      
+        </div>
+        
+        <aside class="newsletter-signup">
+          <h2>Sign up for therapy at YouCare</h2>
+          <p>
+            “Explore healing and well-being on our platform. Connect with
+            experts, discover trends, and find local practitioners. Your journey
+            to better health starts here!”
+          </p>
+          <button>SIGN UP</button>
+        </aside>
+
+
+  </body>
+</html>

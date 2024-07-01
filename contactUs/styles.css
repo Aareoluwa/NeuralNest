@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3fbff;
+    color: #333;
+}
+
+header {
+    background-image: url('/contactUs/contactus.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.contact-section {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 50px; */
+    background-color: #f5f2e9;
+}
+
+
+
+.contact-form-container {
+    position: absolute;
+    top: 200px; 
+    left: 10%; 
+    transform: translateX(-20%); 
+    background-color: #e5f1fd;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2; 
+    width: 40%; 
+
+}
+
+.contact-form-container h2 {
+    margin-top: 0;
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container label {
+    margin: 10px 0 5px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form-container .radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form-container button {
+    padding: 10px;
+    background-color: #0867cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form-container button:hover {
+    background-color: #0852a1;
+}
+
+.newsletter-signup {
+
+    position: absolute;
+    top: 290px; 
+    left: 60%; 
+    transform: translateX(-20%); 
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2; 
+    width: 30%; 
+
+
+}
+
+.newsletter-signup h2 {
+    margin-top: 0;
+}
+
+.newsletter-signup button {
+    padding: 10px;
+    background-color: #0867cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-signup button:hover {
+    background-color: #0852a1;
+}
