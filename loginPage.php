@@ -27,20 +27,26 @@
       <div class="form">
         <div class="pd">
           <h2>Hi, nice to see you</h2><br>
-          <form action="#" method="post">
+          <?php
+            include 'includes/messages.inc.php';
+          ?>
+          <form action="includes/login.inc.php" method="POST">
             <div class="form-group">
-              <label for="username">Username:</label>
-              <input type="text" id="username" name="username" required />
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" required />
             </div>
             <div class="form-group">
               <label for="password">Password:</label>
               <input type="password" id="password" name="password" required />
             </div>
-            <a href="index.html" class="btn1" style="width: 280px; background-color: #007bff;">Login</a><br />
+              <button type="submit" class="btn1" style="background: blue; cursor: pointer; ">
+                  Login                
+              </button>
+            <br />
 
           </form>
           <p> <a href="#"> Forget password</a></p>
-          <p><a href="registerPage.html">Don't have an account? Register</a></p>
+          <p><a href="registerPage.php">Don't have an account? Register</a></p>
         </div>
       </div>
 

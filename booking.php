@@ -17,23 +17,22 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="/cascading sheet/header.css" />
     <link rel="stylesheet" href="booking.css">
-    <link rel="stylesheet" href="/cascading sheet/card.css" />
-    <link rel="stylesheet" href="/cascading sheet/review.css" />
-    <link rel="stylesheet" href="/cascading sheet/option1.css" />
-    <link rel="stylesheet" href="/cascading sheet/accordion.css" />
-    <link rel="stylesheet" href="/cascading sheet/call.css" />
-    <link rel="stylesheet" href="/cascading sheet/iconCustomize.css" />
-    <link rel="stylesheet" href="/cascading sheet/location.css" />
-    <link rel="stylesheet" href="/cascading sheet/whoIsItFor.css" />
-    <link rel="stylesheet" href="cascading sheet/calender.css" />
-    <link rel="stylesheet" href="/cascading sheet/genderFee.css" />
-    <link rel="stylesheet" href="/cascading sheet/range.css" />
-    <link rel="stylesheet" href="/cascading sheet/button.css" />
-    <link rel="stylesheet" href="/cascading sheet/flexContainerIcon.css" />
-    <link rel="stylesheet" href="/cascading sheet/flexContainerIcon2.css" />
-    <link rel="stylesheet" href="/cascading sheet/rating.css" />
+    <link rel="stylesheet" href="/cascading_sheet/card.css" />
+    <link rel="stylesheet" href="/cascading_sheet/review.css" />
+    <link rel="stylesheet" href="/cascading_sheet/option1.css" />
+    <link rel="stylesheet" href="/cascading_sheet/accordion.css" />
+    <link rel="stylesheet" href="/cascading_sheet/call.css" />
+    <link rel="stylesheet" href="/cascading_sheet/iconCustomize.css" />
+    <link rel="stylesheet" href="/cascading_sheet/location.css" />
+    <link rel="stylesheet" href="/cascading_sheet/whoIsItFor.css" />
+    <link rel="stylesheet" href="cascading_sheet/calender.css" />
+    <link rel="stylesheet" href="/cascading_sheet/genderFee.css" />
+    <link rel="stylesheet" href="/cascading_sheet/range.css" />
+    <link rel="stylesheet" href="/cascading_sheet/button.css" />
+    <link rel="stylesheet" href="/cascading_sheet/flexContainerIcon.css" />
+    <link rel="stylesheet" href="/cascading_sheet/flexContainerIcon2.css" />
+    <link rel="stylesheet" href="/cascading_sheet/rating.css" />
     <link rel="stylesheet" href="/about/styless.css ">
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -41,19 +40,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
-
-
-
-
-
-
-
 
   <body>
     <div class="cont">

@@ -1,12 +1,12 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thraphy</title>
-
-
-
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -15,11 +15,6 @@
 rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
-
-
-
-
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -28,9 +23,68 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       referrerpolicy="no-referrer"
     />
 
+      <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .nav {
+      list-style-type: none;
+    }
+    .nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+    .nav li a {
+      text-decoration: none;
+      color: #000;
+    }
+    .profile {
+      position: relative;
+      display: inline-block;
+    }
+    .profile img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .profile:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="stylesheet" href="/cascading sheet/header.css" />
-    <link rel="stylesheet" href="/cascading sheet/card.css" />
+    <link rel="stylesheet" href="/cascading_sheet/header.css" />
+    <link rel="stylesheet" href="/cascading_sheet/card.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="/about/styless.css">
@@ -58,18 +112,71 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
 
 
+<?php 
+
+if (isset($_SESSION['role'])) {
+  if ($_SESSION['role'] == 0 || $_SESSION['role'] == 1) {
+  ?>
     <header>
       <div class="container">
           <div class="logo">YouCare.</div>
           <nav>
               <ul>
-                  <li><a href="/booking.html">Booking</a></li>
-                  <li><a href="/contactUs/index.html">Contact</a></li>
-                  <li><a href="/loginPage.html" class="account-btn"> Sign out</a></li>
+                  <li> <ul class="nav">
+                    <li><a href="booking.php">Booking</a></li>
+                    <li><a href="contactUs/index.php">Contact</a></li>
+
+                      <li class="profile">
+                        <img src="./avatars/<?php echo $_SESSION['profile_pics'] ?>" alt="<?php echo $_SESSION['first_name'] ?> Avatar">
+
+                        <div class="dropdown-content">
+                          <a href="profile.php">Profile</a>
+                          <a href="includes/logout.inc.php">Logout</a>
+                        </div>
+                      </li>
+
+                  </ul></li>
               </ul>
           </nav>
       </div>
-  </header>
+    </header>
+  <?php 
+  } else { 
+  ?>
+    <header>
+      <div class="container">
+          <div class="logo">YouCare.</div>
+          <nav>
+              <ul>
+                  <li><a href="booking.php">Booking</a></li>
+                  <li><a href="contactUs/index.php">Contact</a></li>
+                  <li><a href="loginPage.php" class="account-btn">Login</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+  <?php 
+  } 
+} else { 
+?>
+    <header>
+      <div class="container">
+          <div class="logo">YouCare.</div>
+          <nav>
+              <ul>
+                  <li><a href="booking.php">Booking</a></li>
+                  <li><a href="contactUs/index.php">Contact</a></li>
+                  <li><a href="loginPage.php" class="account-btn">Login</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+<?php 
+}
+?>
+
+ 
+
 
 
 
@@ -293,24 +400,20 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <!-- ACCORDION END -->
 
 
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.js-testimonials-slider',{
-grabCursor: true,
-spaceBetween:30,
-pagination:{
-    el: '.js-testimonials-pagination',
-    clickable: true
-},
-breakpoints:{
-767:{
-    slidesPerView: 2
-}
-}
+          grabCursor: true,
+          spaceBetween:30,
+          pagination:{
+              el: '.js-testimonials-pagination',
+              clickable: true
+          },
+          breakpoints:{
+          767:{
+              slidesPerView: 2
+          }
+          }
         });
     </script>
 
